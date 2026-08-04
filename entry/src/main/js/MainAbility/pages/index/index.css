@@ -1,0 +1,37 @@
+.page {
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  color: darkblue;
+  margin-top: 10px;
+}
+
+.status {
+  font-size: 24px;
+  color: gainsboro;
+  margin: 0px;
+
+}
+
+
+.button {
+  width: 220px;
+  height: 55px;
+  background-color: darkred;
+  margin: 5px;
+
+}
+
+.result {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 16px;
+}
+

@@ -1,0 +1,11 @@
+<div class="page">
+    <text class="title">Large File Read Demo</text>
+
+    <text class="status">Status: {{ status }}</text>
+    <text class="status">Direct: {{directResult}}</text>
+    <text class="status">Chunked: {{ chunkedResult }}</text>
+
+    <input class="button" onclick="prepareDemoFile">Prepare File</input>
+    <input class="button" onclick="readDirect">Read Direct</input>
+    <input class="button" onclick="readChunked">Read Chunked</input>
+</div>
